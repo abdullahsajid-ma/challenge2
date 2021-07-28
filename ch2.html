@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge2</title>
+    <style>
+        *{
+            margin: 10px 0px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row1{
+            width: 25%;
+            min-height: 20rem;
+            background-color: #E38623;
+            padding: 16px;
+            color: #fff;
+            /* float: left; */
+            border-radius: 1.1rem;
+        }
+        .row1.row11{
+            background-color: #006971;
+            /* float: left; */
+        }
+        .row1.row111{
+            background-color: #003F3E;
+            /* float: left; */
+        }
+        .row1 img{
+            padding: 20px;
+        }
+        .row1,h2,p{
+            padding: 20px;
+        }
+        .row1 h2{
+            text-transform: uppercase;
+        }
+        .row1 p{
+            font-size: 1.1rem;
+            font-weight: 200;
+            letter-spacing: 2px;
+            line-height: 1.6rem;
+        }
+        .row1 button{
+            margin: 100px 20px;
+            padding: 13px 30px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .row1 button:hover{
+            opacity: 0.9;
+        }
+        @media screen and (max-width: 1007px){
+            .container{
+                flex-direction: column;
+                margin: 15px;
+            }
+            .row1{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="row1 row">
+                <img src="icon-sedans.svg" alt="">
+                <h2>sedans</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis reiciendis numquam debitis! Enim eveniet sed corrupti aperiam quis architecto!</p>
+                <button>Learn More</button>
+            </div>
+            <div class="row1 row11">
+                <img src="icon-suvs.svg" alt="">
+                <h2>sedans</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis reiciendis numquam debitis! Enim eveniet sed corrupti aperiam quis architecto!</p>
+                <button>Learn More</button>
+            </div>
+            <div class="row1 row111">
+                <img src="icon-luxury.svg" alt="">
+                <h2>sedans</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis reiciendis numquam debitis! Enim eveniet sed corrupti aperiam quis architecto!</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+</body>
+</html>
